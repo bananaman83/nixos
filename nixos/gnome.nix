@@ -8,7 +8,7 @@
   # Gnome app removal:
   services.gnome.core-developer-tools.enable = false;
   services.gnome.games.enable = false;
-  environment.gnome.excludePackages = with pkgs; [ gnome-tour gnome-user-docs ];
+  environment.gnome.excludePackages = with pkgs; [ gnome-tour gnome-user-docs epiphany ];
   
   environment.systemPackages = [
     pkgs.firefox-gnome-theme # theme to make firefox fit the gnome theme
